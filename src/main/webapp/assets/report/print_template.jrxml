@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="tps_sticker" pageWidth="283" pageHeight="113" orientation="Landscape" whenNoDataType="AllSectionsNoDetail" columnWidth="279" leftMargin="2" rightMargin="2" topMargin="5" bottomMargin="5" whenResourceMissingType="Empty" uuid="228c994f-1a97-4d28-a767-38c3b0a73c66">
+	<property name="ireport.zoom" value="2.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<parameter name="headerLeft" class="java.lang.String"/>
+	<parameter name="headerRight" class="java.lang.String"/>
+	<parameter name="modelName" class="java.lang.String"/>
+	<parameter name="modelPartNo" class="java.lang.String"/>
+	<parameter name="modelPartName" class="java.lang.String"/>
+	<parameter name="packCapacity" class="java.lang.String"/>
+	<parameter name="barCode" class="java.lang.String"/>
+	<parameter name="labelNo" class="java.lang.String"/>
+	<detail>
+		<band height="101">
+			<textField isStretchWithOverflow="true" pattern="" isBlankWhenNull="true">
+				<reportElement mode="Transparent" x="4" y="0" width="159" height="22" isPrintWhenDetailOverflows="true" forecolor="#000000" uuid="07fbee72-1de7-4096-b72d-e9078210f127"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="CordiaUPC" size="20" isBold="true" pdfFontName="CordiaUPC" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					<paragraph lineSpacing="Fixed"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{headerLeft}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement mode="Transparent" x="198" y="0" width="80" height="24" isPrintWhenDetailOverflows="true" forecolor="#000000" uuid="818f7d7b-aa22-4ddd-8fee-7bf42b854b5a"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="CordiaUPC" size="20" isBold="true" pdfFontName="CordiaUPC" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					<paragraph lineSpacing="Fixed"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{headerRight}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" pattern="" isBlankWhenNull="true">
+				<reportElement mode="Transparent" x="5" y="26" width="159" height="22" isPrintWhenDetailOverflows="true" forecolor="#000000" uuid="a51fb76d-3256-4807-b21b-23632f25a766"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="CordiaUPC" size="18" isBold="true" pdfFontName="CordiaUPC" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					<paragraph lineSpacing="Fixed"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{modelPartName}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement mode="Transparent" x="198" y="50" width="80" height="22" isPrintWhenDetailOverflows="true" forecolor="#000000" uuid="72978e5c-1cd8-4e6a-8ddf-96e8bd39a0b6"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="CordiaUPC" size="16" isBold="true" pdfFontName="CordiaUPC" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					<paragraph lineSpacing="Fixed"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{packCapacity}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement mode="Transparent" x="198" y="70" width="80" height="22" isPrintWhenDetailOverflows="true" forecolor="#000000" uuid="ebb475a1-8cf3-46d5-8643-0b2e06bbc1e6"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="CordiaUPC" size="16" isBold="true" pdfFontName="CordiaUPC" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					<paragraph lineSpacing="Fixed"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{modelName}]]></textFieldExpression>
+			</textField>
+			<rectangle radius="4">
+				<reportElement mode="Transparent" x="198" y="26" width="57" height="22" isPrintWhenDetailOverflows="true" uuid="ced1babc-1e3f-46b3-9fd9-066129442b02"/>
+			</rectangle>
+			<textField isBlankWhenNull="true">
+				<reportElement mode="Transparent" x="198" y="27" width="57" height="20" isPrintWhenDetailOverflows="true" forecolor="#000000" uuid="88d2569a-6976-451b-b5df-17f8c89a0f9f"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="CordiaUPC" size="14" isBold="true" pdfFontName="CordiaUPC" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+					<paragraph lineSpacing="AtLeast"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{modelPartNo}]]></textFieldExpression>
+			</textField>
+			<elementGroup>
+				<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+					<reportElement mode="Transparent" x="1" y="80" width="185" height="20" isPrintWhenDetailOverflows="true" forecolor="#000000" uuid="8fb2a172-0fc8-4af9-9da4-8c20d0bd082b"/>
+					<textElement textAlignment="Center" verticalAlignment="Top">
+						<font fontName="CordiaUPC" size="16" isBold="true" pdfFontName="CordiaUPC" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+						<paragraph lineSpacing="Fixed"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{labelNo}]]></textFieldExpression>
+				</textField>
+			</elementGroup>
+			<componentElement>
+				<reportElement positionType="Float" stretchType="RelativeToBandHeight" mode="Opaque" x="1" y="53" width="185" height="45" isPrintWhenDetailOverflows="true" uuid="92de80ff-566a-4fc9-84d9-3092709ce1c3"/>
+				<jr:Code128 xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd" moduleWidth="1.0" textPosition="none" quietZone="5.0" verticalQuietZone="0.0">
+					<jr:codeExpression><![CDATA[$P{barCode}]]></jr:codeExpression>
+				</jr:Code128>
+			</componentElement>
+		</band>
+	</detail>
+</jasperReport>

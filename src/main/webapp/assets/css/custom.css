@@ -1,0 +1,466 @@
+
+@font-face {
+	font-family: "Poppins";
+	src: url("../../assets/fonts/Poppins/Poppins-Regular.ttf");
+}
+
+body , html, h2{
+	font-family: 'Poppins', sans-serif !important;
+}
+
+
+.form-control {
+/*     height: calc(1.5em + 0.75rem + 2px) !important; */
+    height: calc(2.25rem + 2px) !important;
+     border: 1px solid #cccccc; 
+/*     width: 20em; */
+}
+
+
+.card{
+/* 	border: 1px solid rgba(0,0,0,.125) !important; */
+margin-bottom: 1rem;
+}
+
+.col-form-label {
+    font-size: 14px;
+    text-align: right;
+}
+
+.btn-table{
+	border-radius: 4px;
+    font-size: 75%;
+    padding: 4px 7px;
+    margin-right: 5px;
+}
+
+.swal-footer {
+    text-align: center;
+}
+ 
+ .modal-header {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: start;
+    align-items: flex-start;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    padding: 20px 25px;
+    border-bottom: 1px solid #e3eaef;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.modal-header .close {
+    margin:  auto 0;
+}
+
+button.close {
+    padding: 0;
+    background-color: transparent;
+    border: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+.close {
+    float: right;
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    opacity: .5;
+}
+
+.bootstrap-select.is-invalid .dropdown-toggle, .error .bootstrap-select .dropdown-toggle, .has-error .bootstrap-select .dropdown-toggle, .was-validated .bootstrap-select select:invalid+.dropdown-toggle {
+    border-color: #dc3545 !important;
+} 
+ 
+.dropdown-toggle{
+	color: #495057 !important;
+	background-color: #fff; 
+	font-size: 14px !important;
+}
+
+.btn-light {
+    border-color: #cccccc;
+}
+.btn-light.disabled, .btn-light:disabled {
+    background-color: #f8f9fa;
+}
+
+
+.bootstrap-select.form-control  {
+    border-color: #cccccc;
+}
+
+.colorFrontG {
+	color: #666 !important;
+}
+
+
+
+
+.cardBoderY {
+	border: 4px ;
+}
+
+.cardBnuttomY {
+    border-radius: 0 10px;
+    margin: -32px -25px;
+    font-weight: 600;
+    padding: 17px;
+}
+
+.cardBoderToDay {
+	border: solid #007bff4f;
+}
+
+.cardBnuttomToday{
+	background-color: #b0d6ff !important;
+}
+
+.colorLogoToDay  {
+	color: #4099ff !important;
+}
+
+
+.cardBoderMonth {
+	border: solid #59e0c5;
+}
+
+.cardBnuttomMonth {
+	background-color: #59e0c5 !important;
+}
+
+.colorLogoMonth  {
+	color: #28a745 !important;
+}
+
+.cardBoderAll {
+	border: solid #ffcb80;
+}
+
+.cardBnuttomAll {
+	background-color: #ffcb80 !important;
+}
+
+.colorLogoAll  {
+	color: #b30000 !important;
+}
+
+.text-uppercase:valid{
+	text-transform: uppercase !important;
+}
+
+.col-print{
+	padding-right: 5px;
+    padding-left: 5px;
+}
+
+ 
+    
+.day {
+    color:#007bff;
+
+}
+
+.photo-border{
+	 border: 3px solid #fff;
+}
+
+/* .pcoded .pcoded-navbar[active-item-theme="theme4"] .pcoded-item > li.active > a { */
+/*     background: -webkit-gradient(linear, left top, right top, from(#004ef9), to(#79a3ff)) !important; */
+/*     background: linear-gradient(to right, #272c30, #72b2fc) !important; */
+/* } */
+
+/* .pcoded .pcoded-header[header-theme="theme5"] { */
+/*      background: -webkit-gradient(linear,left top,right top,from(#4099ff),to(#73b4ff)); */
+/*     background: linear-gradient(to right,#4099ff,#73b4ff); */
+/* } */
+
+/* .pcoded .pcoded-navbar[active-item-theme="theme4"] .pcoded-item > li.active > a:before { */
+/*     border-left-color: #ff0000; */
+/* } */
+ 
+
+
+.btn-inverse {
+	background-color: #adadad;
+	border-color: #ececec;
+}
+
+
+  .logo-img{
+  	height: 35px;
+  }
+  
+/* @media screen and (max-width: 992px) { */
+/*   .logo-img { */
+/* 		height: 50px; */
+/*   } */
+/* } */
+
+.pcoded-main-container{
+/* 	background-color: #63696f; */
+/* 	 background: url("../img/warehouse-image-1.jpg")  center fixed; */
+}
+
+.pcoded-navbar{
+	background-color: #fff;
+}
+
+.f-45{
+    font-size: 35px !important;
+}
+.label-l {
+    text-align: left !important;
+}
+
+.lb-info {
+    padding: .2rem .2rem;
+/*     color: #bd4147; */
+    color: #003dc5;
+    background-color: #f8f9fa;
+    border-radius: .25rem;
+    margin-bottom: 0;
+}
+
+.info-head{
+	font-size: 16px;
+	color: #003dc5;
+/* 	color: #415dfe; */
+	font-weight: 600 ;
+}
+
+.w50{
+	width: 50%;
+}
+
+.btn-mobile{
+	display: none;
+}
+
+.fixed-button{
+	bottom: 0px;
+	right: 0px;
+} 
+
+.fixed-button.active{
+	bottom: 10px;
+	right: 0px;
+} 
+
+body.loading {
+    overflow: hidden;
+}
+
+.total-itm{
+	font-weight:  500;
+}
+
+ @media screen and (max-width: 992px) {
+	 .col-form-label {
+	    text-align: left;
+/* 	    display: none; */
+	}
+	.form-group {
+	    margin-bottom: 0;
+	}
+	.form-btn{
+		margin-top:1em;
+	}
+	
+	.col-xl-3 {
+	    -webkit-box-flex: 0;
+	    -ms-flex: 0 0 50%;
+	    flex: 0 0 50%;
+	    max-width: 50%;
+	}
+	 
+	.btn-mobile{
+		display: inline;
+	}
+	.mb-hide{
+		display: none;
+	}
+	
+	.mb-left{
+		float: left;
+	}
+	.pcoded-inner-content {
+	    padding: 10px;
+	}
+	 
+ }
+
+
+
+
+/* The loader container */.loader,
+.loader:before,
+.loader:after {
+  border-radius: 35%;
+  width: 2.5em;
+  height: 2.5em;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation: load7 1.8s infinite ease-in-out;
+  animation: load7 1.8s infinite ease-in-out;
+}
+.loader {
+  color: #ffffff;
+  font-size: 10px;
+  margin: 5px auto;
+  margin-bottom: 30px;
+  position: relative;
+  text-indent: -9999em;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-animation-delay: -0.16s;
+  animation-delay: -0.16s;
+}
+.loader:before,
+.loader:after {
+  content: '';
+  position: absolute;
+  top: 0;
+}
+.loader:before {
+  left: -3.5em;
+  -webkit-animation-delay: -0.32s;
+  animation-delay: -0.32s;
+}
+.loader:after {
+  left: 3.5em;
+}
+@-webkit-keyframes load7 {
+  0%,
+  80%,
+  100% {
+    box-shadow: 0 2.5em 0 -1.3em;
+  }
+  40% {
+    box-shadow: 0 2.5em 0 0;
+  }
+}
+@keyframes load7 {
+  0%,
+  80%,
+  100% {
+    box-shadow: 0 2.5em 0 -1.3em;
+  }
+  40% {
+    box-shadow: 0 2.5em 0 0;
+  }
+}
+
+
+
+
+
+/* Start by setting display:none to make this hidden.
+   Then we position it in relation to the viewport window
+   with position:fixed. Width, height, top and left speak
+   for themselves. Background we set to 80% white with
+   our animation centered, and no-repeating */
+.offline {
+    display:    none;
+    position:   fixed;
+    z-index:    1000;
+    top:        0;
+    left:       0;
+    height:     100%;
+    width:      100%;
+    background: rgba( 255, 255, 255, .8 ) 
+                url('http://i.stack.imgur.com/FhHRx.gif') 
+                50% 50% 
+                no-repeat;
+}
+
+/* When the body has the loading class, we turn
+   the scrollbar off with overflow:hidden */
+body.loading .offline {
+    overflow: hidden;   
+}
+
+/* Anytime the body has the loading class, our
+   modal element will be visible */
+body.loading .offline {
+    display: block;
+}
+
+.form-group.row {
+	margin-right: 0;
+    margin-left: 0;
+}
+
+.caption {
+   padding: .75rem 1.25rem !important; 
+/*     background-color: rgb(255 83 112) !important; */
+/*     border-bottom: 1px solid rgba(0,0,0,.125) !important; */
+    color: #fff;
+    
+}
+
+.question-div{
+	top: 5px !important; 
+}
+
+.question-txt{
+	 color: #fff !important;
+}
+
+.card-load {
+    position: relative;
+    overflow: hidden;
+}
+
+.pcoded .card-load .card-loader {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+/*     display: -webkit-box; */
+/*     display: -ms-flexbox; */
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.7);
+    z-index: 999;
+}
+
+.card-loader i {
+    margin: 0 auto;
+}
+
+
+.form-control:disabled {
+    cursor: auto;
+    opacity: 1;
+} 
+
+.custom-select.is-invalid, .form-control.is-invalid, .was-validated .custom-select:invalid, .was-validated .form-control:invalid {
+    border-color: #dc3545;
+}
+
+.select2-container--default .select2-selection--multiple {
+    border-radius: 3px;
+}
+
+/* ---------- Support imaketing  */
+/* .page-wrapper { */
+/*     padding: 0 !important; */
+/* } */
+
+.pcoded-inner-content {
+    padding: 0 !important;
+}
+
+.pcoded-content{
+	margin-left: 0 !important;
+}
